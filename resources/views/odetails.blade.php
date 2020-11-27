@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Order Details</title>  
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="{{ secure_asset('images/favicon.png') }}">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="{{ asset('css/navbar.css') }}">
-  <link rel="stylesheet" type="text/css" href="{{ asset('css/footer.css') }}">
-  <link rel="stylesheet" type="text/css" href="{{ asset('css/odetails.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/navbar.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/footer.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/odetails.css') }}">
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <!-- Favicons -->
   <link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">

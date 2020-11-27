@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>News</title>  
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="{{ secure_asset('images/favicon.png') }}">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="{{ asset('css/news.css') }}">
-  <link rel="stylesheet" type="text/css" href="{{ asset('css/navbar.css') }}">
-  <link rel="stylesheet" type="text/css" href="{{ asset('css/footer.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/news.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/navbar.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/footer.css') }}">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
@@ -70,7 +70,7 @@
 
   <div class="container row1" style="background-color:#E8F4F7 ;padding-left: 0;margin-top: 87px;margin-bottom: 87px;padding-right: 0">
     <div class="col-xl-7 col-sm-12" style="padding-left: 0;padding-right: 0;">
-      <img src="{{ asset('images/mask.jpg') }}" style="width: 100%;height: 100%">      
+      <img src="{{ secure_asset('images/mask.jpg') }}" style="width: 100%;height: 100%">      
     </div>
     <div class="col-xl-5 col-sm-12" style="text-align: center;color:#0A8FA5 ;padding-right: 0;padding-top: 44px;padding-left: 0">
       <p style="font-family: 'Oswald', sans-serif;font-size: 40px;">DIDICATED TO SERVING</p>
@@ -97,10 +97,10 @@
 
 <div class="container row1" id="kgf2">
   <div class="col-xl-6">
-    <img src="{{ asset('images/rule1.jpg') }}" style="width: 100%;padding-top: 30px;">
+    <img src="{{ secure_asset('images/rule1.jpg') }}" style="width: 100%;padding-top: 30px;">
   </div>
   <div class="col-xl-6">
-    <img src="{{ asset('images/rule2.jpg') }}" style="width: 100%;padding-top: 30px;">
+    <img src="{{ secure_asset('images/rule2.jpg') }}" style="width: 100%;padding-top: 30px;">
   </div>  
 </div>
 

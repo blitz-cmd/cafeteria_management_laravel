@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Login</title> 
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png"> 
+  <link rel="shortcut icon" type="image/png" href="{{ secure_asset('images/favicon.png') }}"> 
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="{{ asset('css/signup.css') }}">
-  <link rel="stylesheet" type="text/css" href="{{ asset('css/navbar.css') }}">
-  <link rel="stylesheet" type="text/css" href="{{ asset('css/footer.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/signup.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/navbar.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/footer.css') }}">
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>

@@ -81,13 +81,13 @@
         <p class="dxd" style="color:white;float: right;font-family: 'Lobster', cursive;font-size: large;">-Jerry Saltz</p>
     </div>
       <div class="carousel-item active">
-        <img class="ghj" src="{{ asset('images/tony-lee-8IKf54pc3qk-unsplash.jpg') }}" alt="First slide">
+        <img class="ghj" src="{{ secure_asset('images/tony-lee-8IKf54pc3qk-unsplash.jpg') }}" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="ghj" src="{{ asset('images/nathan-dumlao-I_394sxx0ec-unsplash  (2).jpg') }}" alt="Second slide">
+        <img class="ghj" src="{{ secure_asset('images/nathan-dumlao-I_394sxx0ec-unsplash  (2).jpg') }}" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="ghj" src="{{ asset('images/nathan-dumlao-6VhPY27jdps-unsplash  (2).jpg') }}" alt="Third slide">
+        <img class="ghj" src="{{ secure_asset('images/nathan-dumlao-6VhPY27jdps-unsplash  (2).jpg') }}" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -118,9 +118,9 @@
       </div>
       
       <div class="col-xl-7">
-        <img src="{{ asset('images/curbside.jpg') }}" alt="" class="img">
-        <img src="{{ asset('images/drive thru.jpg') }}" alt="" class="img">
-        <img src="{{ asset('images/in store.jpg') }}" alt="" class="img">
+        <img src="{{ secure_asset('images/curbside.jpg') }}" alt="" class="img">
+        <img src="{{ secure_asset('images/drive thru.jpg') }}" alt="" class="img">
+        <img src="{{ secure_asset('images/in store.jpg') }}" alt="" class="img">
       </div>
     </div>
 
