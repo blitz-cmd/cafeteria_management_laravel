@@ -1,0 +1,94 @@
+#drf{
+    background-image: url('https://4rsmokehouse.com/wp-content/uploads/2020/09/4R-Football-Party-Pack-WEB.jpg?force=true');
+    width: 100%;
+    text-align:center;
+  }
+  
+  #drf1{
+    padding-top: 200px;
+    padding-bottom: 31px;
+    font-size: 6em;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+  }
+  
+  .aza{
+      color: #886735;
+      background-color: white;
+      padding-bottom: 12px;
+      padding-top: 12px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 2px;
+      font-weight: 600;
+  }
+  
+  .ghj{
+    width: 100%;height: 93vh;
+  }
+  
+  .img{
+    width: 200px;
+    padding-right: 7px;
+    padding-top: 37px;
+  }
+  
+  #ord{
+      padding-top: 30px;
+      background-color: #F0EDEC;
+      margin-top: 69px;
+      padding-bottom: 30px;
+      text-align: center;
+  }
+  
+  .main-loader {
+    position: fixed;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(http://www.downgraf.com/wp-content/uploads/2014/09/01-progress.gif) center no-repeat white;
+    background-size:50px;
+  }
+  
+  .bg-dark {
+      background-color: #333!important;
+  }
+  
+  #hxh{
+    color: #9cd8ef;font-family: 'Ranchers', cursive;font-size: xxx-large;letter-spacing: 4px;
+  }
+  
+  @media(max-width: 415px) {
+    #drf{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    #drf1{
+      font-size: 5em;
+    }
+    .dxd{
+      display: none!important;
+    }
+    #hxh{
+      padding-bottom: 8rem!important;
+    }
+    .ghj{
+      width: 157%;
+      height: 59vh;
+      margin-left: -119px;
+    }
+    #ban2{
+      padding-bottom: 0!important;
+    }
+  
+  }
+  
+  @media(max-width: 321px){
+    #drf1{
+      font-size: 4em;
+    }
+  }

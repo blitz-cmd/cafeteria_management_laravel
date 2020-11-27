@@ -1,0 +1,30 @@
+.fon{
+    font-family: 'Oswald', sans-serif;font-size: 30px;padding-top: 20px;padding-bottom: 20px;font-weight: 600;
+  }
+  
+  .fon1{
+    letter-spacing: 1px;
+    font-size: 22px;
+  }
+  
+  @media(max-width: 415px){
+      #tgf{
+          padding-left: 30px!important;
+          padding-right: 30px!important;
+      }
+  
+      #kgf{
+          font-size: 1.8em!important;
+      }
+      #kgf1{
+          font-size: 2em!important;
+      }
+      #kgf2{
+          padding-right: 0!important;
+          padding-left: 0!important;
+      }
+      #body{
+          padding-top: 0!important;
+      }
+  
+  }
