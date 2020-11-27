@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Cafeteria</title>
-    <link rel="shortcut icon" type="image/png" href="{{ secure_secure_asset('images/favicon.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ secure_asset('images/favicon.png') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/index.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/navbar.css') }}">
