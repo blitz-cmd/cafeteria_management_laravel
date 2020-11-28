@@ -120,7 +120,7 @@ class User extends Controller
         $q1=$r->post('n1');$q2=$r->post('n2');$q3=$r->post('n3');$q4=$r->post('n4');$q5=$r->post('n5');
         $q6=$r->post('n6');$q7=$r->post('n7');$q8=$r->post('n8');$q9=$r->post('n9');
         // $email=$r->session()->get('email');
-        DB::insert('insert into orderhistory (id) values (?)', [$orderidl]);
+        DB::insert('insert into orderhistory (id) values (?)', [$orderid]);
         if($q1!=0){
             DB::update('update orderhistory set name1=?,price1=?,quantity1=? where id = ?', [$a1,$o1,$q1,$orderid]);
             $sum=$sum+($o1*$q1);$i++;
