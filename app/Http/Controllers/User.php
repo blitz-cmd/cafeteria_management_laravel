@@ -192,7 +192,7 @@ class User extends Controller
         $email=$r->session()->get('email');
         $id=$r->session()->get('oid');
         DB::update('update orderhistory set name=?,address=?,cname=?,cno=?,exp=?,odate=?,cvv=? where id = ?', [$name,$address,$cname,$cno,$exp,$date,$cvv,$id]);
-        DB::update('update orderhistory set email=? where id=?',[$email,$id]);
+        // DB::update('update orderhistory set email=? where id=?',[$email,$id]);
         // DB::table('orderhistory')
         //       ->where('id', $id)
         //       ->update(['email' => $email]);
