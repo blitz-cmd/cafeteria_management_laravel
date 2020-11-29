@@ -63,7 +63,7 @@
     padding-bottom: 140px;">
 	<h1 id="sasu" style="color: brown;font-weight: 600;padding-bottom: 45px;font-size: 50px;">Your order is on its way</h1>
 	<p id="saku" style="font-size: 25px;padding-bottom: 26px;">Delivery of healthy food is the best solution for bussiness people. Who wants to eat right,look healthy and work productively all day</p>
-	<a href="news.php" class="btn" style="background-color: brown;color: white;padding: 15px;
+	<a href="news" class="btn" style="background-color: brown;color: white;padding: 15px;
     font-weight: 600;border-radius: 20px;">View how we deliver the order</a>	
 </div>
 

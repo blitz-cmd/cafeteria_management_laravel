@@ -8,13 +8,7 @@ use App\Rules\Captcha;
 use Illuminate\Support\Facades\Hash;
 
 class User extends Controller
-{
-    // function index(){
-    //     return view('index').view('footer');
-    // }
-    
-    
-    
+{   
     function index(Request $r){
         $r->session()->put('pdetails','index');
         return view('index');
@@ -192,10 +186,6 @@ class User extends Controller
         $email=$r->session()->get('email');
         $id=$r->session()->get('oid');
         DB::update('update orderhistory set name=?,address=?,cname=?,cno=?,exp=?,odate=?,cvv=?,email=? where id = ?', [$name,$address,$cname,$cno,$exp,$date,$cvv,$email,$id]);
-        // DB::update('update orderhistory set email=? where id=?',[$email,$id]);
-        // DB::table('orderhistory')
-        //       ->where('id', $id)
-        //       ->update(['email' => $email]);
         $r->session()->forget('sama');
         $r->session()->put('pdetails','orderdetails');
         return redirect('checkout');
@@ -213,11 +203,10 @@ class User extends Controller
     }
 
     function checkout(Request $r){
-        // $as=$r->session()->get('pdetails');
-        // if($as==='orderdetails' && $as==='order'){
+        if($r->session()->has('username')){
             return view('checkout');
-        // }else{
-            // return redirect('order');
-        // } 
+        }else{
+            return redirect('login');
+        }
     }
 }
