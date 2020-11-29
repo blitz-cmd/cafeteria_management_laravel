@@ -81,9 +81,9 @@ class User extends Controller
                 // echo $this->getIp();
                 // echo $iip;
                 DB::insert('insert into loginhistory (email,timestamp,ip) values (?,?,?)', [$email,$date,$ip]);
-                $r->session()->put('username','username');
+                $r->session()->put('username',$username);
                 $r->session()->put('pdetails','login');
-                $r->session()->put('email','email');
+                $r->session()->put('email',$email);
                 return redirect('/');
             }else{
                 $r->session()->flash('error','Wrong Password');
@@ -213,11 +213,11 @@ class User extends Controller
     }
 
     function checkout(Request $r){
-        $as=$r->session()->get('pdetails');
-        if($as=='orderdetails' && $as=='checkout'){
+        // $as=$r->session()->get('pdetails');
+        // if($as==='orderdetails' && $as==='order'){
             return view('checkout');
-        }else{
-            return redirect('order');
-        } 
+        // }else{
+            // return redirect('order');
+        // } 
     }
 }
