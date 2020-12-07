@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>About Us</title>
+    <link rel="shortcut icon" type="image/png" href="{{ secure_asset('images/favicon.png') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/about.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/navbar.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/footer.css') }}">
@@ -14,12 +15,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     
     
 </head>
 
-<body>
-    
+<body style="margin=0">
+ <div>   
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
   <a class="navbar-brand mr-auto mr-lg-0 fas fa-coffee" href="/" style="padding-right: 20px;font-size: 30px;"><span style="padding-left: 20px;">Cup o' Joe</span></a>
   <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
@@ -110,8 +114,8 @@
 
 
 <div id="za">
-    <div class="branch">
-         <h1 class="colorchange">Branches</h1>
+    <div class="branch" style="padding-left: 370px;">
+         <h1 class="colorchange" style="padding-right: 111px;padding-bottom: 16px;">Branches</h1>
         
         <div class="gallery">
             <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="shop1"> 
@@ -140,7 +144,29 @@
 
 </div>
 @extends('footer')
- <script type="text/javascript">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script>
+        var $preLoader = $(".main-loader");
+        $(window).load(function() {
+        $preLoader.fadeOut(""); // Animate loader off screen
+        });
+
+        $(function () {
+        'use strict'
+
+        $('[data-toggle="offcanvas"]').on('click', function () {
+        $('.offcanvas-collapse').toggleClass('open')
+         })
+        })
+    </script>
+<script type="text/javascript">
         function slideshow(){
             var x = document.getElementById('check-class');
             if(x.style.display === "none"){
@@ -151,6 +177,4 @@
 
         }
     </script>
-
-</body>
 </html>

@@ -37,10 +37,10 @@
         <a class="nav-link dep" href="news">News</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link dep" href="#">About</a>
+        <a class="nav-link dep" href="about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link dep" href="#">Contact Us</a>
+        <a class="nav-link dep" href="contact">Contact Us</a>
       </li> 
       <?php  
             if(session('username')){

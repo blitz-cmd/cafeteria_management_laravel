@@ -16,10 +16,10 @@ use App\Http\Controllers\User;
 Route::group(['middleware' => ['XssSanitizer']], function () {
 
     Route::get('/','User@index');
-
     Route::get('/news','User@news');
 
     Route::get('/about','User@about');
+    Route::get('/contact','User@contact');
 
     Route::view('/signup','signup');
     Route::post('/signupsubmit','User@signupsubmit');

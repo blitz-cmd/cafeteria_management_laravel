@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,10 +33,10 @@
         <a class="nav-link dep" href="news">News</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link dep" href="#">About</a>
+        <a class="nav-link dep" href="about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link dep" href="#">Contact Us</a>
+        <a class="nav-link dep" href="contact">Contact Us</a>
       </li> 
       <?php  
             

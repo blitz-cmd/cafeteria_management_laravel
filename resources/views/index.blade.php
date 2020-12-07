@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Cafeteria</title>
@@ -16,8 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-  </head>
-  <body>
+</head>
+<body>
 
     <div class="main-loader"></div>
 
@@ -41,7 +40,7 @@
         <a class="nav-link dep" href="about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link dep" href="#">Contact Us</a>
+        <a class="nav-link dep" href="contact">Contact Us</a>
       </li>
       <?php
       $username=Session::get('username');
