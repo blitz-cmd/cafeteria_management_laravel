@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>About Us</title>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/about.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/navbar.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/footer.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/about.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/navbar.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/footer.css') }}">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
