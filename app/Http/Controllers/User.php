@@ -19,6 +19,11 @@ class User extends Controller
         return view('news');
     }
 
+    function about(Request $r){
+        $r->session()->put('pdetails','about');
+        return view('about');
+    }
+
     function signupsubmit(Request $r){
         $username=$r->post('username');
         $email=$r->post('email');
