@@ -130,7 +130,7 @@
 			<p class="ert1 fas fa-envelope" style="font-size: 20px;"><span style="padding-left: 20px;">coe-cafe@mail.com</span></p><br>
 			<p class="ert1 fas fa-phone-alt"  style="font-size: 20px;"><span  style="padding-left: 20px;">+91-9465239120</span></p><br>
 			<p class="ert1 fas fa-map-marked-alt"  style="font-size: 20px;"><span  style="padding-left: 20px;">Mumbai,India</span></p><br><br><br>
-			<a href="news.php" class="btn" style="background-color: brown;color: white;padding: 15px;
+			<a href="news" class="btn" style="background-color: brown;color: white;padding: 15px;
     font-weight: 600;border-radius: 10px;">GET IT NOW</a>
 		</div>
 		
